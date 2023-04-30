@@ -1,0 +1,14 @@
+{{>layouts/header}}
+
+<table class="table">
+
+    {{#articleList}}
+        <tr>
+            <th>{{id}}</th>
+            <td>{{title}}</td>
+            <td>{{content}}</td>
+        </tr>
+    {{/articleList}}
+</table>
+
+{{>layouts/footer}}
